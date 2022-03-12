@@ -27,7 +27,8 @@
         android:layout_height="match_parent"
         android:layout_below="@id/app_bar"
         android:background="@android:color/white"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/email_item"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabAdd"
