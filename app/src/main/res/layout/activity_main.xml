@@ -41,5 +41,6 @@
         android:src="@drawable/ic_baseline_add_24"
         android:tint="@color/purple_200"
         app:backgroundTint="@android:color/white"
-        app:rippleColor="@android:color/darker_gray" />
+        app:rippleColor="@android:color/darker_gray"
+        android:onClick="addEmail"/>
 </RelativeLayout>
